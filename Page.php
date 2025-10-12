@@ -161,7 +161,7 @@ class Page {
   }
 
   function setTopPrepared(bool $status) {
-    $this->_topPreparePrepared = $status;
+    $this->_topPrepared = $status;
   }
 
   function getBottomPrepared() {
