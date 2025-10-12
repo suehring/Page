@@ -105,7 +105,7 @@ class Page {
 
   function addBottomElement($include) {
     $this->_bottomElements[] = $include . PHP_EOL;
-  } //end function addHeadElement
+  } //end function addBottomElement
 
   function prepareBottomSection() {
     $returnVal = "";
