@@ -1,0 +1,14 @@
+{
+    "name": "sitetools/page",
+    "description": "Simple HTML page generator class",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SiteTools\\": ""
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}

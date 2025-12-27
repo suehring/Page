@@ -1,6 +1,6 @@
 <?php
 
-namespace MyNamespace;
+namespace SiteTools;
 /**
 *
 * Page class
@@ -11,7 +11,7 @@ namespace MyNamespace;
 * Usage:
 *****************************
 *   require_once("Page.php");
-*   $page = new MyNamespace\Page("My Page");
+*   $page = new SiteTools\Page("My Page");
 *
 *   print $page->getTopSection();
 *   print "<h1>Some page-specific HTML goes here</h1>" . PHP_EOL;
@@ -21,7 +21,7 @@ namespace MyNamespace;
 *   Alternate Usage (with external CSS):
 *****************************
 *   require_once("Page.php");
-*   $page = new MyNamespace\Page("My Page Uses CSS");
+*   $page = new SiteTools\Page("My Page Uses CSS");
 *
 *   $page->addHeadElement("<link rel=\"stylesheet\" src=\"style.css\">");
 *

@@ -2,7 +2,7 @@
 
 require_once(__DIR__ . "/../Page.php");
 
-$page = new MyNamespace\Page("Example Page with JS and CSS and JS at The Bottom");
+$page = new SiteTools\Page("Example Page with JS and CSS and JS at The Bottom");
 
 // Note that neither of these files contain anything in the page class examples
 // But this is how you'd add js and css.  One addHeadElement() call per file is best practice.
